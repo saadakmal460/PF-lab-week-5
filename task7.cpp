@@ -10,12 +10,15 @@ main()
 {
     system("cls");
 
-int number;
-int num1,num2;
-string z;
-string y;
-while(1){
-cout<< "Enter no: ";
+    int number;
+    int num1,num2;
+    string x;
+    string y;
+
+ while(true){
+
+
+cout<< "Enter number: ";
 cin>> number;
 
 
@@ -25,16 +28,16 @@ num1=number/10;
 
 if (number<10)
 {
-    z=ones(num2);
-    cout <<z<<endl;
+    x = ones(num2);
+    cout << x <<endl;
     }
 
 
 if (number>10)
 {
-    z=ones(num2);
-    y=tenth(num1);
-    cout<<y<< " " <<z<<endl;
+    x = ones(num2);
+    y = tenth(num1);
+    cout<< y << " " << x << endl;
 
 
 }
